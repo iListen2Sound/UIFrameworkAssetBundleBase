@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 2365406594
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 87d7c1bd10002429918b26315c247747
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 50caececed2b9c6b7664950e20898c07
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/PingVisualizer/PingVisualizer.prefab
+- Assets/PingVisualizer/Laggard.mat
+Dependencies: []
