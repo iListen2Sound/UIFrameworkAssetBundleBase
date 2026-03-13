@@ -1,41 +1,7 @@
 ManifestFileVersion: 0
-CRC: 4292342502
+CRC: 201517743
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: rig.rumbleavatar
-      Dependencies: {}
-    Info_1:
-      Name: thewelcomemat
-      Dependencies: {}
-    Info_2:
-      Name: onedashone
-      Dependencies: {}
-    Info_3:
-      Name: bottle
-      Dependencies: {}
-    Info_4:
-      Name: cinematiccamera
-      Dependencies: {}
-    Info_5:
-      Name: namebending
-      Dependencies: {}
-    Info_6:
-      Name: tacotoppings
-      Dependencies:
-        Dependency_0: namebending
-    Info_7:
-      Name: rumblefestivities
-      Dependencies: {}
-    Info_8:
-      Name: randomizer
-      Dependencies: {}
-    Info_9:
-      Name: pingvisualizer
-      Dependencies: {}
-    Info_10:
-      Name: simpleshareable
-      Dependencies: {}
-    Info_11:
-      Name: dieharder
+      Name: uiframework
       Dependencies: {}
