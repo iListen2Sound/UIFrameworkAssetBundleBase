@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1272056485
+CRC: 943912675
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fcb1ae4282ab3d5b8349ccb139e59dc0
+    Hash: 6e00414a12a7bee4d172097e99efae68
   TypeTreeHash:
     serializedVersion: 2
     Hash: b47e378f3d2d8e30c39cfd03a35cb10c
@@ -129,6 +129,7 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Toggle/ToggleEvent
 Assets:
+- Assets/UIFramework/PrefEntryButton.prefab
 - Assets/UIFramework/PrefEntryFloat.prefab
 - Assets/UIFramework/UIFramework.prefab
 - Assets/UIFramework/PrefEntryBoolean.prefab
