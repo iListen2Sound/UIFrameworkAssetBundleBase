@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 943912675
+CRC: 826796609
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6e00414a12a7bee4d172097e99efae68
+    Hash: 308ca8ab640b9fe73ee3fd0184ec5763
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b47e378f3d2d8e30c39cfd03a35cb10c
+    Hash: 56aec4416e9b0a73dacda7b421dc7871
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,6 +27,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 114
@@ -74,6 +76,12 @@ SerializeReferenceClassIdentifiers:
   ClassName: TMPro.KerningTable
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Dropdown/DropdownEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Dropdown/OptionData
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Dropdown/OptionDataList
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontFeatureTable
 - AssemblyName: Unity.TextMeshPro
@@ -130,11 +138,14 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.Toggle/ToggleEvent
 Assets:
 - Assets/UIFramework/PrefEntryButton.prefab
-- Assets/UIFramework/PrefEntryFloat.prefab
+- Assets/UIFramework/Old Individual Prefabs/PrefEntryFloat.prefab
 - Assets/UIFramework/UIFramework.prefab
+- Assets/UIFramework/PrefEntryDropdown.prefab
 - Assets/UIFramework/PrefEntryBoolean.prefab
-- Assets/UIFramework/PrefEntryInt.prefab
+- Assets/UIFramework/Old Individual Prefabs/PrefEntryInt.prefab
 - Assets/UIFramework/PrefEntryText.prefab
 - Assets/UIFramework/ModEntry.prefab
 - Assets/UIFramework/CategoryTab.prefab
+- Assets/UIFramework/PrefEntryFloat.prefab
+- Assets/UIFramework/PrefEntryInt.prefab
 Dependencies: []
