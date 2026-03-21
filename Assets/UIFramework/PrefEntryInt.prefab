@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &346691453177333427
+--- !u!1001 &4465792225049924489
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -22,6 +22,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 148253534778813710, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148253534778813710, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 148253534778813710, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
@@ -75,11 +79,6 @@ PrefabInstance:
     - target: {fileID: 2741055216158116536, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
       propertyPath: m_Name
       value: PrefEntryInt
-      objectReference: {fileID: 0}
-    - target: {fileID: 2884831377521062007, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
-      propertyPath: m_text
-      value: Int - Imagine this is a really long long long description that exceeds
-        the limit for length
       objectReference: {fileID: 0}
     - target: {fileID: 3890467788538865204, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
       propertyPath: m_Pivot.x
@@ -165,26 +164,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4645236788282918675, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4645236788282918675, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4645236788282918675, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4645236788282918675, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4645236788282918675, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5829619328822684749, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -204,10 +183,6 @@ PrefabInstance:
     - target: {fileID: 5829619328822684749, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7808823183818931603, guid: 8736886c77034984b8a3f88cb7244a7e, type: 3}
-      propertyPath: m_fontSize
-      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
