@@ -16,7 +16,7 @@ public class AssetBundleTools
         Debug.Log($"✅ Cleared {allBundleNames.Length} AssetBundle assignments.");
     }
 
-    [MenuItem("Assets/Asset Bundles/Build All Bundles")]
+    [MenuItem("Assets/Asset Bundles/Build All Bundles _F6")]
     private static void BuildAllBundles()
     {
         string outputPath = "Assets/AssetBundles";
