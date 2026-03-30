@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.3.8f1
-CRC: 3334344807
+CRC: 3961143770
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 60caede6c8717b6675c7e5aa4c685859
+    Hash: 70e57a90d069adc715487c13f606dcb1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 83caf3781e771badcfa0e1068e128fb9
+    Hash: aaf92362ae6aab7d221f4095170c84a7
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7efb946a211d9e11c293b23998b60c05
+    Hash: d625bc2dcf62561ad5a05c13e6442279
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -47,6 +47,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
 - Class: 114
@@ -145,6 +147,7 @@ Assets:
 - Assets/UIFramework/PrefEntryDropdown.prefab
 - Assets/UIFramework/PrefEntryInt.prefab
 - Assets/UIFramework/PrefEntryText.prefab
+- Assets/UIFramework/DialogBox.prefab
 - Assets/UIFramework/Old Individual Prefabs/PrefEntryInt.prefab
 - Assets/UIFramework/ModEntry.prefab
 - Assets/UIFramework/CategoryTab.prefab
