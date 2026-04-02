@@ -187,7 +187,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &4105101951829286104
+--- !u!1001 &1962694042
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -197,15 +197,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 105182197757440248, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 485.78766
+      value: 368.57788
       objectReference: {fileID: 0}
     - target: {fileID: 105182197757440248, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 395.94992
+      value: 1080.353
       objectReference: {fileID: 0}
     - target: {fileID: 105182197757440248, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 38.10247
       objectReference: {fileID: 0}
     - target: {fileID: 105182197757440248, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -237,25 +237,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 286800156120581766, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_text
-      value: 'Activate
-
-'
+      value: "<voffset=-9>\u2013"
       objectReference: {fileID: 0}
     - target: {fileID: 286800156120581766, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_fontColor.b
-      value: 0.19607843
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 286800156120581766, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_fontColor.g
-      value: 0.19607843
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 286800156120581766, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_fontColor.r
-      value: 0.19607843
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 286800156120581766, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4281479730
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5546354825512481508, guid: 0c748a0c5cd997340bcccffb0ce8854c, type: 3}
       propertyPath: m_Name
@@ -270,5 +268,5 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 4105101951829286104}
+  - {fileID: 1962694042}
   - {fileID: 389003887}
