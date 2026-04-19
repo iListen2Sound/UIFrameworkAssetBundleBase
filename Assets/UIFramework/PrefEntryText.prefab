@@ -336,6 +336,7 @@ GameObject:
   - component: {fileID: 2694921000674749098}
   - component: {fileID: 6853946362821967835}
   - component: {fileID: 4825676057839518861}
+  - component: {fileID: 83481682958453120}
   m_Layer: 5
   m_Name: Control
   m_TagString: Untagged
@@ -548,6 +549,21 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &83481682958453120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750762581342369460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Shadow
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &2741055216158116536
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +576,7 @@ GameObject:
   - component: {fileID: 7848432511580248970}
   - component: {fileID: 2681351472517697629}
   - component: {fileID: 7098144764742930605}
+  - component: {fileID: 7781477655364442967}
   m_Layer: 5
   m_Name: PrefEntryText
   m_TagString: Untagged
@@ -653,6 +670,21 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &7781477655364442967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2741055216158116536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Shadow
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &5156200104962819817
 GameObject:
   m_ObjectHideFlags: 0

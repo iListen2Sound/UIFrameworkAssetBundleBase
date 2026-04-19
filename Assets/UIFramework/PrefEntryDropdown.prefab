@@ -647,6 +647,7 @@ GameObject:
   - component: {fileID: 6827408694983976424}
   - component: {fileID: 3559052419911272783}
   - component: {fileID: 1833481726970016393}
+  - component: {fileID: 1639395793575772990}
   m_Layer: 5
   m_Name: Dropdown
   m_TagString: Untagged
@@ -798,6 +799,21 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: 4
   m_LayoutPriority: 1
+--- !u!114 &1639395793575772990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3025600021123908219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Shadow
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &3053502864729329164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1450,6 +1466,7 @@ GameObject:
   - component: {fileID: 3416997370135879001}
   - component: {fileID: 7401301213332493966}
   - component: {fileID: 2378195023393429118}
+  - component: {fileID: 2471755506018447407}
   m_Layer: 5
   m_Name: PrefEntryDropdown
   m_TagString: Untagged
@@ -1543,6 +1560,21 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &2471755506018447407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7316812251752336491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Shadow
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &7458024046790935850
 GameObject:
   m_ObjectHideFlags: 0
