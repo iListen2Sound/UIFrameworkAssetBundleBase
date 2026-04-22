@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.judahperez.hsvcolorpicker": "file:D:/Users/iList/Unity/HSV-Color-Picker-Unity/il2s/com.judahperez.hsvcolorpicker-3.3.0.tgz",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.ads": "4.16.4",

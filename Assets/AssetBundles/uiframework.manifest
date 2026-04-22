@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.3.8f1
-CRC: 2085189703
+CRC: 1450758093
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2119a6b72c2ff83632641ac1c73b7f39
+    Hash: 07d4ee83ba8557cc42e5e5cab9e1f9d9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 82337174277f718452f87d6ccf3b869f
+    Hash: a72b3ee29264837d46b2f0e36238f9c7
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 3f0804bb10447415bd538ae3636aba47
+    Hash: b14583f78f3639bb9f79a230edc993c5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -24,6 +24,24 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 37c44bc94a9a7f241b5b552f3ff89458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6bca58eb07ad66b498a2f158bcb13225, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b10e832a32d2d14facd8a3f489ee8d6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8262e4a8322117f4da079921eaa72834, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0923373e76e77402c9c53a2f1250ad3e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c600592efa0cf25479655321bf4fb08a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7ca76dd9ad6eb204c9b0481aece34497, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d85c534b3c1560544b09d0996dfeba84, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1e4240873631f724496efec97d7151b3, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 7b743370ac3e4ec2a1668f5455a8ef8a, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
@@ -31,6 +49,10 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
@@ -50,6 +72,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
@@ -57,6 +81,10 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
 - Class: 114
@@ -74,6 +102,14 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
+- AssemblyName: HSVPicker
+  ClassName: ColorChangedEvent
+- AssemblyName: HSVPicker
+  ClassName: HSVPicker.BoxSlider/BoxSliderEvent
+- AssemblyName: HSVPicker
+  ClassName: HSVPicker.ColorPickerSetup
+- AssemblyName: HSVPicker
+  ClassName: HSVPicker.ColorPickerSetup/UiElements
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.FaceInfo_Legacy
 - AssemblyName: Unity.TextMeshPro
@@ -105,7 +141,11 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.VertexGradient
 - AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.RectOffset
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
@@ -123,11 +163,17 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.LowLevel.GlyphValueRecord
 - AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.EventSystems.EventTrigger/Entry
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.EventSystems.EventTrigger/TriggerEvent
+- AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.AnimationTriggers
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Button/ButtonClickedEvent
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 - AssemblyName: UnityEngine.UI
@@ -136,6 +182,8 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.ScrollRect/ScrollRectEvent
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.Scrollbar/ScrollEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Slider/SliderEvent
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.SpriteState
 - AssemblyName: UnityEngine.UI
@@ -151,6 +199,8 @@ Assets:
 - Assets/UIFramework/PrefEntryText.prefab
 - Assets/UIFramework/DialogBox.prefab
 - Assets/UIFramework/Old Individual Prefabs/PrefEntryInt.prefab
+- Assets/UIFramework/PrefEntrySlider.prefab
 - Assets/UIFramework/ModEntry.prefab
 - Assets/UIFramework/CategoryTab.prefab
+- Assets/UIFramework/Picker 2.0.prefab
 Dependencies: []

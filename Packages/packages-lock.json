@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.judahperez.hsvcolorpicker": {
+      "version": "file:D:/Users/iList/Unity/HSV-Color-Picker-Unity/il2s/com.judahperez.hsvcolorpicker-3.3.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
