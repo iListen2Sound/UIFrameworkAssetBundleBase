@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.3.8f1
-CRC: 1603941357
+CRC: 4235894680
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7d5628d2cba6ec6450edd467ad4b0707
+    Hash: 4852b47090fdcce26ad008f3eb21c534
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a72b3ee29264837d46b2f0e36238f9c7
+    Hash: f645c758da1325d1e088a54a5ce857e9
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 76fe7686d6db19ba89a275bf5d0b78ae
+    Hash: e5c82d70f0bb89cc4b16487e58bb6804
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -100,6 +100,8 @@ ClassTypes:
 - Class: 223
   Script: {instanceID: 0}
 - Class: 224
+  Script: {instanceID: 0}
+- Class: 225
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: HSVPicker

@@ -1,9 +1,12 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.3.8f1
-CRC: 1557065252
+CRC: 411638145
 HashAppended: 0
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: uiframework
+      Dependencies: {}
+    Info_1:
+      Name: testuis
       Dependencies: {}
